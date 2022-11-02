@@ -723,8 +723,6 @@ section {
 
 
 
-/* Jesse */
-
 .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -790,28 +788,28 @@ section {
 }
 
 .header-text {
-  font-size: 50px; 
+  font-size: 50px;
   color: #ed2024;
 }
 
 .biltong-hero {
   margin-top: 60px;
   width: 100%;
-    /* height: auto; */
-    height: 30vh;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  /* height: auto; */
+  height: 30vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .marrble {
   /* background: url('assets/img/WHITE-MARRBLE.jpg'); */
-    width: 100%;
-    /* height: auto; */
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  /* height: auto; */
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text {
@@ -836,10 +834,10 @@ section {
 }
 
 .view-btn {
-  background-color: #efefef; 
-  border: none; 
-  outline: none; 
-  padding: 10px 25px; 
+  background-color: #efefef;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
   /* margin-top: 70px; */
 }
 
@@ -848,6 +846,7 @@ section {
   .float-copyright {
     float: right !important;
   }
+
   .display1 {
     display: block;
   }
@@ -873,16 +872,18 @@ section {
 @media screen and (max-width: 1268px) {
   .text {
     width: 70%;
-  }  
+  }
 }
 
 @media only screen and (max-width: 968px) {
   .marrble {
     height: auto;
   }
+
   .biltong-img {
     transform: translateY(0%);
   }
+
   .biltong-img img {
     width: 80%;
   }
@@ -896,18 +897,19 @@ section {
   .text {
     width: 100%;
   }
-   .text p {
-    text-align: center;
-   }
 
-   .header-text {
+  .text p {
     text-align: center;
-   }
+  }
 
-   .footer-copyright p {
+  .header-text {
+    text-align: center;
+  }
+
+  .footer-copyright p {
     float: none;
   }
-  
+
   .footer-copyright p {
     text-align: center !important;
   }
