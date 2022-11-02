@@ -854,6 +854,9 @@ section {
   .display2 {
     display: none;
   }
+  /* .ad-image {
+    background-size: cover;
+  } */
 
 }
 
@@ -925,6 +928,10 @@ section {
   .display1 {
     display: none;
   }
+
+  /* .ad-image {
+    background-size: contain;
+  } */
 }
 
 .button-shop {
